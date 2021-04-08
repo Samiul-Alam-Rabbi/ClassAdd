@@ -11,6 +11,13 @@ header {
   overflow: hidden;
 }
 
+header span {
+  float: right;
+  padding: 7px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 header .logo {
   float: left;
   margin-right: auto;
@@ -52,5 +59,18 @@ header .navbar ul li a {
   text-transform: uppercase;
   color: #ffff;
   cursor: pointer;
+}
+
+header .navbar.navbar-active {
+  display: block;
+}
+
+.text {
+  background: #101010;
+  color: #fff;
+}
+
+.active {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
